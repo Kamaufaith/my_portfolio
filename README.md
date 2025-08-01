@@ -1,4 +1,3 @@
-markdown
 # My Portfolio
 This is a personal portfolio website built using **HTML** and **CSS**, showcasing my learning journey as i begin exploring web development.
 ## Features
