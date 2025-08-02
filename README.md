@@ -9,4 +9,4 @@ This is a personal portfolio website built using **HTML** and **CSS**, showcasin
 HTML
 CSS
 ## Live Preview
-You can view the live version of my portfolio here:[Visit my site](https://marvelous-dango-007b0e.netlify.app/)
+You can view the live version of my portfolio here:[Visit my site](https://kamaufaith.github.io/my_portfolio/)
