@@ -3,132 +3,258 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Faith Kamau | Portfolio </title>
     <link rel="stylesheet" href="styles.css">
     </head>
 <body>
-    <!--header-->
-    <header>
-        <h1> Hello, I'm Faith</h1>
-        <p> Software developer, Cybersecurity Analyst, Student at The University of Nairobi</p>
-    </header>
-    <!--About-->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm currently a student at the University of Nairobi pursuing a degree in Microprocessor Technology and Instrumentation, expected graduation in September 2027.</p>
-        <p>I have a solid foundation in web technologies including HTML, CSS and Python. I'm also invested in how databases power modern applications and have been exploring MySQL and MongoDB to understand backend systems better.</p>
-    </section>
-    <!--Education-->
-    <section id="education">
-        <h2>Educational Background</h2>
-        <div class="education">
-            <h3>University of Nairobi</h3>
-            <p><strong>Degree:</strong>Bachelor of Science in Microprocessor Technology and Instrumentation</p>
-            <p><strong>Duration:</strong>2023 - Present</p>
-            <p><strong>Relevant Coursework:</strong>Electronics, Embedded Systems</p>
-            </div>
-        <div class="education">
-            <h3>Precious Blood Secondary School Riruta</h3>
-            <p><strong>Certificate:</strong>Kenya Certificate of Secondary Education (KCSE)</p>
-            <p><strong>Duration:</strong>2019-2022</p>
-            <p><strong>Achievements</strong>Grade B (plain)</p>
+
+    <!--Navigation-->
+    <header class="site-header">
+        <nav class="nav" aria-label="Primary navigation">
+            <a class="logo" href="#top">Faith Kamau</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>#
+            </ul>
+        </nav>
+
+        <!--Hero-->
+        <section id="top" class="hero">
+      <p class="badge">Juniour Cybersecurity Analyst • Web Developer • Embedded Systems</p>
+      <h1>Hello, I'm Faith Kamau.</h1>
+      <p class="subtitle">
+        I build practical projects across <strong>web development</strong>, <strong>data analysis</strong>,
+        <strong>embedded systems</strong>, and <strong>cybersecurity</strong>.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="https://github.com/Kamaufaith" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="FK resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        <!-- Optional later: add your CV PDF and link it -->
+        <!-- <a class="btn" href="Faith-Kamau-CV.pdf" target="_blank" rel="noopener">Download CV</a> -->
+      </div>
+
+      <div class="highlights">
+        <div class="highlight-card">
+          <h2>Embedded Systems</h2>
+          <p>Rust no_std on ESP32-C3, circuit simulation, and electronics design (KiCad).</p>
         </div>
-    </section>
-    <!--Skills-->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML/CSS</li>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Git, Github</li>
-            <li>Rust</li>
-            <li>Kicad</li>
-            <li>Cybersecurity Fundamentals</li>
-        </ul>
-    </section>
-    <!--Tech Interests-->
-    <section id="tech-interests">
-        <h2>Tech Interests</h2>
-        <div class="interests">
-            <h3>Artificial Intelligence and Machine Learning</h3>
-            <p>I'm fascinated by how Artificial Intelligence influences our daily lives. Currently exploring AI frameworks and learning all about Machine Learning and Deep learning.</p>
-            <h3>Embedded Systems</h3>
-            <p>My coursework in Embedded Systems has sparked an interest in IoT and how to create smart devices.</p>
-            <h3>Web Development</h3>
-            <p>I'm pasionate in designing and building interactive websites.</p>
-            <h4>Electronics</h4>
-            <p>Learning how to design electrical components using Kicad and simulating circuits using Qucspice</p>
-            <h4>Cybersecurity</h4>
-            <p>Interested in learning how to protect systems and data from cyber threats.</p>
+        <div class="highlight-card">
+          <h2>Data & Python</h2>
+          <p>Cleaned and analyzed 100k+ records with Pandas; visualized insights using Matplotlib.</p>
         </div>
-    </section>
-    <!--Projects-->
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>I'm actively building my skills through these practice projects:</p>
-        <div class="my-projects">
-            <div class="project">
-                <h3>Portfolio Website</h3>
-                <p>This site you are viewing is built with HTML and CSS to showcase my growing skills.</p>
-                <p><strong> Skills practiced</strong> : Semantic HTML and CSS Styling</p>
-            </div>
-            <div class="project">
-                <h3>Cord-19 Data Analysis</h3>
-                <p> Processed 100k+ records and visualized trends using Pandas and Matplotlib using the CORD19 dataset with python.</p>
-                <p><strong>Skills Practiced:</strong>Matplotlib, Pandas, data cleaning</p>
-                <a href ="https://github.com/Kamaufaith/CORD-19-Data-analysis-framework">View Code</a>
-            </div>
-            <div class="project">
-                <h3>Ecommerce Store</h3>
-                <p>Queried an ecommerce database that stores product information and sales data.</p>
-                <p><strong>Skills Practiced:</strong>Sql queries, database design</p>
-                <a href="https://github.com/Kamaufaith/ecommerce_Project">View Code</a>
-            </div>
-            <div class="project">
-                <h3>Embedded systems in Rust</h3>
-                <p>Created a no_std ESP32-C3 blinking LED to explore Rust and embedded systems</p>
-                <p><strong>Skills Practiced:</strong>Hardware Abstraction Layer (HAL) usage, Rust syntax, Bare metal programming</p>
-                <a href="https://github.com/Kamaufaith/nostd_esp32c3_blinky">View Code</a>
+        <div class="highlight-card">
+          <h2>Security</h2>
+          <p>Cybersecurity fundamentals: network security, threat awareness, best practices.</p>
         </div>
-        <p>I'm excited to add more substantial projects soon!</p>
+      </div>
     </section>
-    <section id="Certifications">
-       <h2>Certifications</h2>
-       <div class="certification">
+  </header>
+
+   <main>
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm a student at the University of Nairobi pursuing BSc in Microprocessor Technology and Instrumentation
+        (expected graduation: <strong>September 2027</strong>).
+      </p>
+      <p>
+        I have a strong foundation in <strong>HTML, CSS, and Python</strong>. I’m also exploring backend systems with
+        <strong>MySQL</strong> and <strong>MongoDB</strong> to understand how modern applications store and serve data.
+      </p>
+    </section>
+    <!-- Education -->
+    <section id="education" class="section">
+      <h2>Educational Background</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>University of Nairobi</h3>
+          <p><strong>Degree:</strong> BSc in Microprocessor Technology and Instrumentation</p>
+          <p><strong>Duration:</strong> 2023 – Present</p>
+          <p><strong>Relevant Coursework:</strong> Electronics, Embedded Systems</p>
+        </article>
+
+        <article class="card">
+          <h3>Precious Blood Secondary School, Riruta</h3>
+          <p><strong>Certificate:</strong> KCSE</p>
+          <p><strong>Duration:</strong> 2019 – 2022</p>
+          <p><strong>Achievement:</strong> Grade B (Plain)</p>
+        </article>
+      </div>
+    </section>
+     <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="chips" aria-label="Skill list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Git & GitHub</li>
+        <li>Rust</li>
+        <li>KiCad</li>
+        <li>Cybersecurity Fundamentals</li>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+      </ul>
+    </section>
+     <!-- Interests -->
+    <section id="tech-interests" class="section">
+      <h2>Tech Interests</h2>
+
+      <div class="grid">
+        <article class="card">
+          <h3>AI & Machine Learning</h3>
+          <p>
+            Interested in how AI impacts real life. Currently exploring AI frameworks and learning machine learning and
+            deep learning concepts.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Embedded Systems & IoT</h3>
+          <p>
+            Exploring microcontrollers, Rust embedded development, and building smart device ideas inspired by coursework.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Web Development</h3>
+          <p>I enjoy designing and building responsive, interactive websites with clean UI and structure.</p>
+        </article>
+
+        <article class="card">
+          <h3>Electronics</h3>
+          <p>Designing circuits in KiCad and simulating circuits using Qucs (Qucs-S / Qucs-Spice).</p>
+        </article>
+
+        <article class="card">
+          <h3>Cybersecurity</h3>
+          <p>Learning how to protect systems and data from cyber threats, with focus on best practices and awareness.</p>
+        </article>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="muted">A few projects I’ve built to practice real-world skills:</p>
+
+      <div class="grid">
+        <article class="card project">
+          <h3>Portfolio Website</h3>
+          <p>Built a responsive portfolio to showcase my skills and projects using semantic HTML and modern CSS.</p>
+          <p><strong>Skills:</strong> Semantic HTML, CSS layout, responsive design</p>
+        </article>
+
+        <article class="card project">
+          <h3>CORD-19 Data Analysis</h3>
+          <p>
+            Processed 100k+ records and visualized trends using Pandas and Matplotlib from the CORD-19 dataset.
+          </p>
+          <p><strong>Skills:</strong> Pandas, Matplotlib, data cleaning</p>
+          <a class="link" href="https://github.com/Kamaufaith/CORD-19-Data-analysis-framework" target="_blank" rel="noopener">
+            View Code →
+          </a>
+        </article>
+
+        <article class="card project">
+          <h3>E-commerce SQL Project</h3>
+          <p>
+            Queried an e-commerce database containing product and sales data to generate insights with structured SQL.
+          </p>
+          <p><strong>Skills:</strong> SQL queries, database design</p>
+          <a class="link" href="https://github.com/Kamaufaith/ecommerce_Project" target="_blank" rel="noopener">
+            View Code →
+          </a>
+        </article>
+
+        <article class="card project">
+          <h3>Rust Embedded: ESP32-C3 no_std Blinky</h3>
+          <p>
+            Built a bare-metal blinking LED project using Rust no_std to learn embedded patterns and ESP32-C3 tooling.
+          </p>
+          <p><strong>Skills:</strong> HAL usage, Rust, bare-metal development</p>
+          <a class="link" href="https://github.com/Kamaufaith/nostd_esp32c3_blinky" target="_blank" rel="noopener">
+            View Code →
+          </a>
+        </article>
+      </div>
+
+      <p class="muted">Next: I’m working toward more substantial projects and will add them here.</p>
+    </section>
+    <!-- Certifications -->
+    <section id="certifications" class="section">
+      <h2>Certifications</h2>
+
+      <article class="card">
         <h3>Cybersecurity Essentials</h3>
-        <p><strong></strong> [ICT Authority of Kenya / Cisco Networking Academy]</p>
-        <p>Completed a comprehensive course covering fundamental cybersecurity concepts, including network security, threat management, and best practices for protecting digital assets.</p>
-        <p> Completed and Certified</p>
-        <a href="https://www.credly.com/badges/2a84134b-d189-4362-b8e4-5afe544c2003">View Certificate</a> 
-         </div>
-    </section>
-    <!--Contact-->
-    <section id="contact">
-        <h2>Contact me</h2>
-        <form id="contact-form" action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            
-            <button type="submit">Send Message</button>
-        </form>
-        <p>Or reach out to me directly! <a href="mailto:faithkamau892@gmail.com">Email Me</a>
-            <a href="tel:+254710142811">Call Me</a>
+        <p><strong>Issuer:</strong> ICT Authority of Kenya / Cisco Networking Academy</p>
+        <p>
+          Covered fundamentals including network security, threat management, and best practices for protecting digital assets.
         </p>
-        <p>Connect with me on:</p>
-        <a href="https://www.linkedin.com/in/faith-kamau-169ab62ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedIn</a>
-        <a href="https://x.com/fefekamau?t=LC3RLngUgMjVnl0h1UsftA&s=09">X</a>
-        <a href="https://github.com/Kamaufaith">Github</a>
+        <a class="link" href="https://www.credly.com/badges/2a84134b-d189-4362-b8e4-5afe544c2003" target="_blank" rel="noopener">
+          View Certificate →
+        </a>
+      </article>
     </section>
-    <!--Footer-->
-    <footer>
-        <p>&copy; 2025 Faith Kamau. All rights reserved.</p>
-    </footer>
+     <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+
+      <div class="grid">
+        <form class="card" id="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="muted small">
+          </p>
+        </form>
+
+        <div class="card">
+          <h3>Reach me directly</h3>
+          <p><a class="link" href="mailto:faithkamau892@gmail.com">faithkamau892@gmail.com</a></p>
+          <p><a class="link" href="tel:+254710142811">+254 710 142 811</a></p>
+
+          <h3>Links</h3>
+          <p>
+            <a class="link" href="https://www.linkedin.com/in/faith-kamau-169ab62ba" target="_blank" rel="noopener">LinkedIn</a><br />
+            <a class="link" href="https://x.com/fefekamau?t=LC3RLngUgMjVnl0h1UsftA&s=09" target="_blank" rel="noopener">X (Twitter)</a><br />
+            <a class="link" href="https://github.com/Kamaufaith" target="_blank" rel="noopener">GitHub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+   <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Faith Kamau. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // auto update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
+
+
+
+
+
+    
+    
+    
+    
+  

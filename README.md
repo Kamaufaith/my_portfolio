@@ -1,12 +1,12 @@
 # My Portfolio
-This is a personal portfolio website built using **HTML** and **CSS**, showcasing my learning journey as i begin exploring web development.
+This is a personal portfolio website showcasing my background, skills, projects and certifications.
 ## Features
 -Clean HTML/CSS design
--Projects sections with descriptions and skills practiced
+-Projects sections with direct links to Github repositories
 -Contact section with email and phone links
 -Background image
-## Languages
-HTML
-CSS
+## Built With
+HTML5
+CSS3
 ## Live Preview
 You can view the live version of my portfolio here:[Visit my site](https://kamaufaith.github.io/my_portfolio/)
